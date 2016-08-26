@@ -19,7 +19,7 @@ describe("android simple", function () {
 
     var desired = process.env.npm_package_config_sauce ?
       _.clone(require("./helpers/caps").android18) :
-      _.clone(require("./helpers/caps").android19);
+      _.clone(require("./helpers/caps").android23);
     desired.app = require("./helpers/apps").androidApiDemos;
     if (process.env.npm_package_config_sauce) {
       desired.name = 'android - simple';

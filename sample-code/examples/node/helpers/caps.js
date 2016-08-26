@@ -34,6 +34,15 @@ exports.android19 = {
   app: undefined // will be set later
 };
 
+exports.android23 = {
+  browserName: '',
+  'appium-version': '1.5.3',
+  platformName: 'Android',
+  platformVersion: '6.0',
+  deviceName: 'Android Emulator',
+  app: undefined // will be set later
+};
+
 exports.selendroid16 = {
   browserName: '',
   'appium-version': '1.3',
